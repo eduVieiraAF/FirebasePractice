@@ -33,7 +33,7 @@
       tools:ignore="HardcodedText" />
 
   <com.google.android.material.card.MaterialCardView
-      android:id="@+id/cardview"
+      android:id="@+id/cardView"
       android:layout_width="300dp"
       android:layout_height="wrap_content"
       app:cardCornerRadius="15dp"
@@ -130,7 +130,7 @@
       android:background="@drawable/round_shape"
       android:backgroundTint="@color/prussian_blue"
       tools:ignore="HardcodedText"
-      app:layout_constraintTop_toBottomOf="@id/cardview"
+      app:layout_constraintTop_toBottomOf="@id/cardView"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintEnd_toEndOf="parent"/>
 

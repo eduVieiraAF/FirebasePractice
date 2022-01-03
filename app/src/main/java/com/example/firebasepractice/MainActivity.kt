@@ -2,7 +2,6 @@ package com.example.firebasepractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.firebasepractice.databinding.ActivityMainBinding
 import com.google.firebase.database.DatabaseReference
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                     .setMessage("You cannot leave any field empty.")
                     .setPositiveButton("Got it") {_,_ ->
                         binding.txtName.requestFocus()}.show()
-
             }
 
             else {
@@ -76,7 +74,6 @@ class MainActivity : AppCompatActivity() {
                             .setMessage("You have successfully completed\nyour registration.")
                             .setPositiveButton("Okay"){_,_ ->}
                             .show()
-
                     }.addOnFailureListener {
 
                         //Toast.makeText(this, "Registration failed", Toast.LENGTH_SHORT)
