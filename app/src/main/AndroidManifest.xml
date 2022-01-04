@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirebasePractice">
         <activity
-            android:name=".UpdateData"
+            android:name=".Delete"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ReadData"
+            android:name=".UpdateData"
             android:exported="false"/>
+        <activity
+            android:name=".ReadData"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
