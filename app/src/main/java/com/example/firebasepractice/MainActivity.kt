@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.txtName.requestFocus()
         binding.btnLogin.setOnClickListener {
 
             val fulName = binding.txtName.text.toString()
