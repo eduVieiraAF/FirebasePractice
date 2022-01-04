@@ -56,19 +56,18 @@ class ReadData : AppCompatActivity() {
                  val userName = it.child("userName").value
 
                  Toast.makeText(this, "Username found!", Toast.LENGTH_SHORT).show()
-                 binding.editUserName2.text.clear()
 
+                 binding.editUserName2.text.clear()
                  binding.txtNameFB.text = fullName.toString()
                  binding.txtAgeFB.text = age.toString()
                  binding.txtUsernameFB.text = userName.toString()
-
              }
 
              else {
 
                  AlertDialog.Builder(this)
                      .setTitle("USERNAME")
-                     .setMessage("\nUsername does not exist")
+                     .setMessage("\nUsername does not exist.")
                      .setPositiveButton("Try again"){_,_ ->
                          binding.editUserName2.text.clear()
                          binding.editUserName2.requestFocus()
@@ -78,12 +77,11 @@ class ReadData : AppCompatActivity() {
 
              AlertDialog.Builder(this)
                  .setTitle("USERNAME")
-                 .setMessage("\nUnable to read data")
+                 .setMessage("\nUnable to read data.")
                  .setPositiveButton("Okay"){_,_ ->
                      binding.editUserName2.text.clear()
                      binding.editUserName2.requestFocus()
                  }.show()
          }
     }
-
 }

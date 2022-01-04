@@ -37,6 +37,7 @@ class UpdateData : AppCompatActivity() {
                     .setTitle("UPDATE")
                     .setMessage("\nYou cannot leave 'USERNAME' empty.")
                     .setPositiveButton("Got it"){_,_ -> binding.editUserName3.requestFocus()}
+                    .show()
             }
         }
     }
@@ -61,8 +62,9 @@ class UpdateData : AppCompatActivity() {
 
             AlertDialog.Builder(this)
                 .setTitle("UPDATE")
-                .setMessage("Data has been successfully updated.")
+                .setMessage("\nData has been successfully updated.")
                 .setPositiveButton("Hooray"){_,_ -> binding.editUserName3.requestFocus()}
+                .show()
 
         }.addOnFailureListener {
 
@@ -71,8 +73,9 @@ class UpdateData : AppCompatActivity() {
 
             AlertDialog.Builder(this)
                 .setTitle("UPDATE")
-                .setMessage("Data has failed.")
+                .setMessage("\nData has failed.")
                 .setPositiveButton("try again"){_,_ -> binding.editUserName3.requestFocus()}
+                .show()
         }
     }
 }
