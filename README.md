@@ -1,3 +1,3 @@
-# 📱 FirebasePractice 🔥☁
+# 📱📶 FirebasePractice 🔥☁
 ## Simple Firebase practice
-- Fetching, saving, altering and deleting data ☁
+- Create, read, update & delete data. ☁
