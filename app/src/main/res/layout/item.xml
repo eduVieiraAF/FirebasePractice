@@ -33,6 +33,7 @@
             android:textColor="@color/midnite_blue"
             android:textSize="22sp"
             android:layout_marginStart="10dp"
+            android:gravity="center"
             app:layout_constraintStart_toEndOf="@id/TV_nameTxt"
             app:layout_constraintTop_toTopOf="parent"
             />
@@ -58,7 +59,8 @@
             android:textColor="@color/midnite_blue"
             android:textSize="22sp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
             app:layout_constraintStart_toEndOf="@id/TV_ageTxt"
             app:layout_constraintTop_toBottomOf="@id/TV_nameFB"/>
 
@@ -70,6 +72,7 @@
             android:textSize="28sp"
             android:layout_margin="10dp"
             android:textStyle="bold"
+            android:gravity="center"
             app:layout_constraintTop_toBottomOf="@id/TV_ageFB"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
