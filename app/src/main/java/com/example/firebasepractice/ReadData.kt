@@ -1,6 +1,7 @@
 package com.example.firebasepractice
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
@@ -20,6 +21,12 @@ class ReadData : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityReadDataBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnList.setOnClickListener {
+
+            val intent = Intent(this, UserList::class.java).apply{}
+            startActivity(intent)
+        }
 
         binding.btnSearch.setOnClickListener{
 

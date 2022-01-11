@@ -17,25 +17,25 @@ class StartActivity : AppCompatActivity() {
 
         binding.btnRegister.setOnClickListener {
 
-            val intent = Intent(this, MainActivity::class.java).apply{->}
+            val intent = Intent(this, MainActivity::class.java).apply{}
             startActivity(intent)
         }
 
         binding.btnReadData.setOnClickListener {
 
-            val intent = Intent(this, ReadData::class.java).apply {->}
+            val intent = Intent(this, ReadData::class.java).apply {}
             startActivity(intent)
         }
 
         binding.btnUpdate2.setOnClickListener {
 
-            val intent = Intent(this, UpdateData::class.java).apply {->}
+            val intent = Intent(this, UpdateData::class.java).apply {}
             startActivity(intent)
         }
 
         binding.btnDelete.setOnClickListener {
 
-            val intent = Intent(this, Delete::class.java).apply {->}
+            val intent = Intent(this, Delete::class.java).apply {}
             startActivity(intent)
         }
     }

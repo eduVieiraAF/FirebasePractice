@@ -12,7 +12,7 @@ class FireAdapter(private val userList : ArrayList<User>):
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FireViewHolder {
 
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.activity_user_list,
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item,
         parent, false)
 
         return FireViewHolder(itemView)
