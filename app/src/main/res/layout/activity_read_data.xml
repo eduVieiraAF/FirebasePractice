@@ -183,9 +183,9 @@
 
     <Button
         android:id="@+id/btn_list"
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="24dp"
-        android:text="  peek users list  "
+        android:text="peek users list"
         android:textSize="14sp"
         android:textColor="@color/blissful_blue"
         tools:ignore="HardcodedText"

@@ -29,7 +29,7 @@ class UserList : AppCompatActivity() {
 
     private fun getUserData() {
 
-        dbRef = FirebaseDatabase.getInstance().getReference("User")
+        dbRef = FirebaseDatabase.getInstance().getReference("Users")
 
         dbRef.addValueEventListener(object : ValueEventListener{
 
