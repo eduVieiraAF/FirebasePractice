@@ -124,7 +124,6 @@
                 android:textColor="@color/deep_blue"
                 app:layout_constraintStart_toEndOf="@id/txt_name2"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 android:maxLines="2"
                 android:gravity="center"
                 android:layout_margin="21dp"/>
