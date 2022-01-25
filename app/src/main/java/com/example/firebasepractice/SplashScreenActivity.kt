@@ -17,7 +17,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
         splashFire.alpha = 0f
         splashFire.animate().setDuration(1500).alpha(1f).withEndAction {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, StartActivity::class.java)
             startActivity(i)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
